@@ -1,25 +1,51 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import HomeView from "./views/HomeView";
+import "./App.css";
+import Section from "./components/section";
+import Navbar from "./components/navbar";
+import dummyText from "./dummytext";
+import { Route } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+       
+        <div className="content">
+          <Section
+            title="About"
+            subtitle={dummyText}
+            dark={true}
+            id="section1"
+          />
+          <Section
+            title="Project"
+            subtitle={dummyText}
+            dark={false}
+            id="section2"
+          />
+          <Section
+            title="Skills"
+            subtitle={dummyText}
+            dark={true}
+            id="section3"
+          />
+          <Section
+            title="Resume"
+            subtitle={dummyText}
+            dark={false}
+            id="section4"
+          />
+          <Section
+            title="Contact"
+            subtitle={dummyText}
+            dark={true}
+            id="section5"
+          />
+        </div>
+        <Navbar />
       </div>
     );
   }
