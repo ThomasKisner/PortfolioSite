@@ -7,6 +7,7 @@ import Navbar from "./components/navbar";
 import dummyText from "./dummytext";
 import { Route } from "react-router-dom";
 import { Link, animateScroll as scroll } from "react-scroll";
+import AboutSection from "./components/aboutSection"
 
 class App extends Component {
   render() {
@@ -14,9 +15,7 @@ class App extends Component {
       <div className="App">
        
         <div className="content">
-          <Section
-            title="About"
-            subtitle={dummyText}
+          <AboutSection
             dark={true}
             id="section1"
           />

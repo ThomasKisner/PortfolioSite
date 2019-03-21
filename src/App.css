@@ -83,7 +83,7 @@ a{
  .active { 
   background-color: white;
   color: #4dd0e1;
-  width: 100%;
+  width: 100%; 
 }
 
 .centerLinks{
@@ -117,10 +117,10 @@ a{
 
 .face {
   background: url("./assets/tomsbighead2.jpeg");
-  width: 10rem;
-  height: 10rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
-  border: 1px solid red;
+  border: 2px solid white;
   margin: 0 auto;
   margin-top: 25px;
 }
