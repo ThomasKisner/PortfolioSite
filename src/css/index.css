@@ -1,0 +1,131 @@
+.nav {
+  background-color: var(--off-white);
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 20rem;
+  height: 100vh;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4dd0e1;
+  color: white;
+}
+.nav .personalMenuInfo {
+  width: 80%;
+  margin: 0 auto;
+}
+.nav .personalMenuInfo .personalMenuInfo h2 {
+  text-align: center;
+}
+.nav .personalMenuInfo .face {
+  background: url("../assets/tomsbighead2.jpeg");
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.nav .nav-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: flex-start;
+  height: 100%;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 25px;
+}
+.nav .nav-content .centerLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav .nav-content .centerLinks a {
+  cursor: pointer;
+  min-height: 50px;
+  vertical-align: center;
+  border-bottom: 1px solid white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav .nav-content .centerLinks .first {
+  border-top: 1px solid white;
+}
+.nav .nav-content .centerLinks .active {
+  background-color: white;
+  color: #4dd0e1;
+  width: 100%;
+}
+.section-dark {
+  background: #333;
+  color: white;
+}
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+.content {
+  padding-right: 20rem;
+}
+.contact .nameEmail {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .nameEmail input {
+  width: 45%;
+  height: 40px;
+  line-height: 2;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 3px;
+  border: none;
+}
+.contact .nameEmail ::-webkit-input-placeholder {
+  padding-left: 5px;
+}
+.contact .nameEmail input:focus {
+  padding: 0;
+  outline: none;
+  border: 3px solid #4dd0e1;
+}
+.contact .subjectMessage input {
+  width: 100%;
+  height: 40px;
+  line-height: 2;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 3px;
+  box-sizing: border-box;
+  border: none;
+}
+.contact .subjectMessage input:focus {
+  padding: 0;
+  outline: none;
+  border: 3px solid #4dd0e1;
+}
+.contact .subjectMessage ::-webkit-input-placeholder {
+  padding-left: 5px;
+  vertical-align: text-top;
+}
+.contact .subjectMessage textarea {
+  height: 150px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 3px;
+  box-sizing: border-box;
+  border: none;
+}
+.contact .subjectMessage textarea:focus {
+  outline: none;
+  padding: 0;
+  border: 3px solid #4dd0e1;
+  box-shadow: none;
+}

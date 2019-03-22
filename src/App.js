@@ -1,13 +1,14 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
-import HomeView from "./views/HomeView";
-import "./App.css";
+import "./css/index.css";
 import Section from "./components/section";
 import Navbar from "./components/navbar";
 import dummyText from "./dummytext";
 import { Route } from "react-router-dom";
 import { Link, animateScroll as scroll } from "react-scroll";
-import AboutSection from "./components/aboutSection"
+import AboutSection from "./components/aboutSection";
+import ProjectSection from "./components/projectSection";
+import SkillsSection from "./components/skillsSection";
+import ContactSection from "./components/contactSection.js"
 
 class App extends Component {
   render() {
@@ -19,13 +20,11 @@ class App extends Component {
             dark={true}
             id="section1"
           />
-          <Section
-            title="Project"
-            subtitle={dummyText}
+          <ProjectSection 
             dark={false}
             id="section2"
           />
-          <Section
+          <SkillsSection
             title="Skills"
             subtitle={dummyText}
             dark={true}
@@ -37,9 +36,7 @@ class App extends Component {
             dark={false}
             id="section4"
           />
-          <Section
-            title="Contact"
-            subtitle={dummyText}
+          <ContactSection 
             dark={true}
             id="section5"
           />

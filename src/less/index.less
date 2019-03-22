@@ -1,0 +1,157 @@
+.nav {
+  background-color: var(--off-white);
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 20rem;
+  height: 100vh;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4dd0e1;
+  color: white;
+
+  .personalMenuInfo {
+    width: 80%;
+    margin: 0 auto;
+    .personalMenuInfo h2 {
+      text-align: center;
+    }
+    .face {
+      background: url("../assets/tomsbighead2.jpeg");
+      width: 7rem;
+      height: 7rem;
+      border-radius: 50%;
+      border: 2px solid white;
+      margin: 0 auto;
+      margin-top: 25px;
+    }
+  }
+  .nav-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: flex-start;
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 25px;
+    .centerLinks {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      a {
+        cursor: pointer;
+        min-height: 50px;
+        vertical-align: center;
+        border-bottom: 1px solid white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .first {
+        border-top: 1px solid white;
+      }
+
+      .active {
+        background-color: white;
+        color: #4dd0e1;
+        width: 100%;
+      }
+    }
+  }
+}
+
+//   .nav-item {
+//     color: #333333;
+//     width: 100%;
+//     border: 1px solid red;
+//     padding: 0;
+//     list-style-type: none;
+//   }
+
+//   .nav-item:hover {
+//     color: black;
+//     cursor: pointer;
+//   }
+
+.section-dark {
+  background: #333;
+  color: white;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.content {
+  padding-right: 20rem;
+}
+
+.contact {
+  .nameEmail {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    input {
+      width: 45%;
+      height: 40px;
+      line-height: 2;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      padding: 3px;
+      border:none;
+    }
+    ::-webkit-input-placeholder {
+      padding-left: 5px;
+    }
+    input:focus {
+      padding: 0;
+      outline: none;
+      border: 3px solid #4dd0e1;
+    }
+  }
+  .subjectMessage {
+    input {
+      width: 100%;
+      height: 40px;
+      line-height: 2;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      padding: 3px;
+      box-sizing: border-box;
+      border:none;
+    }
+    input:focus {
+      padding: 0;
+      outline: none;
+      border: 3px solid #4dd0e1;
+    }
+    ::-webkit-input-placeholder {
+      padding-left: 5px;
+      vertical-align: text-top;
+    }
+    textarea {
+      height: 150px;
+      width: 100%;
+      border-radius: 5px;
+      padding: 3px;
+      box-sizing: border-box;
+      border:none;
+
+    }
+    textarea:focus {
+      outline: none;
+      padding: 0;
+      border: 3px solid #4dd0e1;
+      box-shadow: none;
+
+      //
+    }
+  }
+}
