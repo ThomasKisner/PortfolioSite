@@ -53,6 +53,10 @@
   justify-content: center;
   align-items: center;
 }
+.nav .nav-content .centerLinks a:active {
+  background-color: #45bbca;
+  outline: none;
+}
 .nav .nav-content .centerLinks .first {
   border-top: 1px solid white;
 }
@@ -88,6 +92,9 @@
   padding: 3px;
   border: none;
 }
+.contact .nameEmail input:hover {
+  cursor: pointer;
+}
 .contact .nameEmail ::-webkit-input-placeholder {
   padding-left: 5px;
 }
@@ -106,6 +113,9 @@
   box-sizing: border-box;
   border: none;
 }
+.contact .subjectMessage input:hover {
+  cursor: pointer;
+}
 .contact .subjectMessage input:focus {
   padding: 0;
   outline: none;
@@ -122,10 +132,97 @@
   padding: 3px;
   box-sizing: border-box;
   border: none;
+  margin-bottom: 20px;
+}
+.contact .subjectMessage textarea:hover {
+  cursor: pointer;
 }
 .contact .subjectMessage textarea:focus {
   outline: none;
   padding: 0;
   border: 3px solid #4dd0e1;
   box-shadow: none;
+}
+.contact .formButtons {
+  width: 370px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .formButtons input {
+  height: 50px;
+  width: 45%;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  outline: none;
+  background-color: #4dd0e1;
+}
+.contact .formButtons input:hover {
+  cursor: pointer;
+}
+.contact .formButtons input:active {
+  background-color: #45bbca;
+  outline: none;
+}
+.projectTilesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projectTilesContainer .projectTileAndText {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.projectTilesContainer .projectTileAndText h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.projectTilesContainer .projectTileAndText .projectTile {
+  width: 100%;
+  margin: 0 auto;
+  height: 300px;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  margin: 1% 0;
+}
+.projectTilesContainer .projectTileAndText .projectTile .projectText {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.projectTilesContainer .projectTileAndText .projectTile .projectText a {
+  color: black;
+}
+.projectTilesContainer .projectTileAndText .projectTile .projectText .fa:hover {
+  color: #4dd0e1;
+  cursor: pointer;
+}
+.projectTilesContainer .projectTileAndText .innerTile {
+  height: 100%;
+  width: 46%;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease;
+  transition: all 0.5s;
+}
+.projectTilesContainer .projectTileAndText .innerTile:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.projectTilesContainer .projectTileAndText .portfolio {
+  background-image: url('../assets/portfolioCode.png');
+}
+.projectTilesContainer .projectTileAndText .movebytes {
+  background-image: url('../assets/movebytes.png');
 }
