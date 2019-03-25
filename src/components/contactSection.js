@@ -1,4 +1,5 @@
 import React from "react";
+import {FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa";
 
 export default function ContactSection({ title, subtitle, dark, id }) {
   const formSubmit = (e)=> {
@@ -25,6 +26,17 @@ export default function ContactSection({ title, subtitle, dark, id }) {
         <input type="reset" value="Reset Form"></input>
         </div>
          </form>
+         <div className="contactIcons">
+         <a href="https://github.com/ThomasKisner" targe="_blank">
+         <FaGithub size={40} className="faContact"/>
+         </a>
+         <a href="https://www.linkedin.com/in/thomas-kisner-7b72a74a/" target="_blank">
+         <FaLinkedin size={40} className="faContact"/>
+         </a>
+         <a href="mailto:tjkisner@gmail.com">
+         <FaEnvelope size={40} className="faContact"/>
+         </a>
+         </div>
          </div>
       </div>
     </div>

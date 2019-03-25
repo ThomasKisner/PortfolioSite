@@ -16,7 +16,7 @@ export default class Navbar extends Component {
          <div className="personalMenuInfo">
          <div className="face"></div> 
             <h2>Tom Kisner</h2>
-            <h4>Enthusiastic full stack developer with a passion for learning and applying new skills</h4>
+            {/* <h4>Enthusiastic full stack developer with a passion for learning and applying new skills</h4> */}
             </div>
         <div className="nav-content">
             <div className="centerLinks">
@@ -52,23 +52,10 @@ export default class Navbar extends Component {
                 duration={500}
               >
                 Skills
-              </Link>
- 
+              </Link> 
               <Link
                 activeClass="active"
                 to="section4"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Resume
-              </Link>
-           
-    
-              <Link
-                activeClass="active"
-                to="section5"
                 spy={true}
                 smooth={true}
                 offset={-70}

@@ -17,28 +17,22 @@ class App extends Component {
        
         <div className="content">
           <AboutSection
-            dark={true}
+            dark={false}
             id="section1"
           />
           <ProjectSection 
-            dark={false}
+            dark={true}
             id="section2"
           />
           <SkillsSection
             title="Skills"
             subtitle={dummyText}
-            dark={true}
-            id="section3"
-          />
-          <Section
-            title="Resume"
-            subtitle={dummyText}
             dark={false}
-            id="section4"
-          />
+            id="section3"
+          /> 
           <ContactSection 
             dark={true}
-            id="section5"
+            id="section4"
           />
         </div>
         <Navbar />

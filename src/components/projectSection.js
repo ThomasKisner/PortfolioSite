@@ -18,10 +18,10 @@ export default function ProjectSection({ title, subtitle, dark, id }) {
               <div className="projectText">
                 <h2>Movebytes.com <a href="https://github.com/Lambda-School-Labs/labs10-big-files" target="_blank"><FaGithub className="fa"/></a> <a href="https://www.movebytes.com/" target="_blank"><FaGlobeAmericas className="fa"/></a></h2>
                 <p>
-                  Tech Stack: React.js, React Hooks, Axios, Styled-Components
+                  Tech Stack: React.js(Hooks), Axios, Styled-Components
                 </p>
                 <p>
-                  A simple to use file transfer site which allows you to send your file to anyone via an automated download link.
+                  A simple to use file transfer site which allows you to send your file to anyone via an automated download link. 
                 </p>
               </div>
             </div>
