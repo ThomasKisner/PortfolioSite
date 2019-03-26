@@ -98,7 +98,7 @@
   line-height: 2;
   border-radius: 5px;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   box-sizing: border-box;
   padding: 3px;
   border: none;
@@ -119,7 +119,7 @@
   height: 40px;
   line-height: 2;
   border-radius: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   padding: 3px;
   box-sizing: border-box;
   border: none;
@@ -143,7 +143,10 @@
   padding: 3px;
   box-sizing: border-box;
   border: none;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+}
+.contact .subjectMessage textarea::placeholder {
+  padding-top: 5px;
 }
 .contact .subjectMessage textarea:hover {
   cursor: pointer;
@@ -192,6 +195,9 @@
   color: #4dd0e1;
   cursor: pointer;
 }
+.contact .contactIcons .faContact:active {
+  background-color: #45bbca;
+}
 .projectTilesContainer {
   display: flex;
   flex-direction: column;
@@ -232,6 +238,9 @@
   color: #4dd0e1;
   cursor: pointer;
 }
+.projectTilesContainer .projectTileAndText .projectTile .projectText .fa:active {
+  color: #45bbca;
+}
 .projectTilesContainer .projectTileAndText .innerTile {
   height: 100%;
   width: 46%;
@@ -245,14 +254,34 @@
   cursor: pointer;
 }
 .projectTilesContainer .projectTileAndText .portfolio {
-  background-image: url('../assets/portfolioCode.png');
+  background-position: left;
+  background-image: url("../assets/portfolioCode.png");
 }
 .projectTilesContainer .projectTileAndText .movebytes {
-  background-image: url('../assets/movebytes.png');
+  background-image: url("../assets/movebytes.png");
 }
 .App {
   line-height: 1.3;
   letter-spacing: 1.15px;
+}
+.App header {
+  height: 20em;
+  width: 100%;
+  background-image: url("../assets/peter-schreve-266863-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+footer {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4d4d4d;
+}
+footer .footerFlex {
+  height: fit-content;
+  width: fit-content;
 }
 .skillContainer {
   display: flex;
