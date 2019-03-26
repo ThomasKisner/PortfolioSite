@@ -260,6 +260,9 @@
 .projectTilesContainer .projectTileAndText .movebytes {
   background-image: url("../assets/movebytes.png");
 }
+.projectTilesContainer .projectTileAndText .backend {
+  background-image: url("../assets/notesCode.png");
+}
 .App {
   line-height: 1.3;
   letter-spacing: 1.15px;

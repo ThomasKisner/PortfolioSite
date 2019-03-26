@@ -43,7 +43,8 @@ export default function ProjectSection({ title, subtitle, dark, id }) {
             <div className="projectTile">
               <div className={notesBackEndInner} />
               <div className="projectText">
-                <h2>Notes Back End <a href="https://github.com/ThomasKisner/back-end-project" target="_blank"><FaGithub className="fa"/></a> <a href="https://github.com/ThomasKisner?tab=repositories" target="_blank"><FaGlobeAmericas className="fa"/></a></h2>
+                <h2>Notes Back End <a href="https://github.com/ThomasKisner/back-end-project" target="_blank"><FaGithub className="fa"/></a> </h2>
+                {/* <a href="https://github.com/ThomasKisner?tab=repositories" target="_blank"><FaGlobeAmericas className="fa"/></a>  */}
                 <p>Tech Stack: Node.js, Express, PostgreSQL</p>
                 <p>
                   A backend created to interface with an existing note
