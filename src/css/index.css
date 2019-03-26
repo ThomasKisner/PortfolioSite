@@ -251,7 +251,6 @@
 }
 .projectTilesContainer .projectTileAndText .innerTile:hover {
   transform: scale(1.05);
-  cursor: pointer;
 }
 .projectTilesContainer .projectTileAndText .portfolio {
   background-position: left;
