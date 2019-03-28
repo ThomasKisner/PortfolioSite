@@ -10,9 +10,30 @@
   background-color: #4dd0e1;
   color: white;
 }
+@media (max-width: 1100px) {
+  .nav {
+    width: 16rem;
+  }
+}
+@media (max-width: 950px) {
+  .nav {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 .nav .personalMenuInfo {
   width: 80%;
   margin: 0 auto;
+}
+@media (max-width: 950px) {
+  .nav .personalMenuInfo {
+    width: fit-content;
+    margin: 0;
+    margin-left: 10px;
+  }
 }
 .nav .personalMenuInfo .personalMenuInfo h2 {
   text-align: center;
@@ -26,10 +47,20 @@
   margin: 0 auto;
   margin-top: 25px;
 }
+@media (max-width: 950px) {
+  .nav .personalMenuInfo .face {
+    display: none;
+  }
+}
 .nav .personalMenuInfo h2 {
   width: fit-content;
   margin: 0 auto;
   margin-top: 20px;
+}
+@media (max-width: 950px) {
+  .nav .personalMenuInfo h2 {
+    margin: 0;
+  }
 }
 .nav .nav-content {
   max-width: 900px;
@@ -42,11 +73,25 @@
   width: 100%;
   margin-top: 25px;
 }
+@media (max-width: 950px) {
+  .nav .nav-content {
+    flex-direction: row;
+    margin: 0;
+    width: fit-content;
+  }
+}
 .nav .nav-content .centerLinks {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: auto;
+}
+@media (max-width: 950px) {
+  .nav .nav-content .centerLinks {
+    flex-direction: row;
+    width: fit-content;
+  }
 }
 .nav .nav-content .centerLinks a {
   cursor: pointer;
@@ -59,12 +104,26 @@
   align-items: center;
   font-size: 1.3rem;
 }
+@media (max-width: 950px) {
+  .nav .nav-content .centerLinks a {
+    border-bottom: none;
+    height: 40px;
+    min-height: 0;
+    margin: 0 5px;
+    padding: 0 5px;
+  }
+}
 .nav .nav-content .centerLinks a:active {
   background-color: #45bbca;
   outline: none;
 }
 .nav .nav-content .centerLinks .first {
   border-top: 1px solid white;
+}
+@media (max-width: 950px) {
+  .nav .nav-content .centerLinks .first {
+    border: none;
+  }
 }
 .nav .nav-content .centerLinks .active {
   background-color: white;
@@ -86,6 +145,16 @@
 }
 .content {
   padding-right: 20rem;
+}
+@media (max-width: 1100px) {
+  .content {
+    padding-right: 16rem;
+  }
+}
+@media (max-width: 950px) {
+  .content {
+    padding-right: 0;
+  }
 }
 .contact .nameEmail {
   width: 100%;
@@ -272,6 +341,11 @@
   background-image: url("../assets/peter-schreve-266863-unsplash.jpg");
   background-size: cover;
   background-position: center;
+}
+@media (max-width: 950px) {
+  .App header {
+    margin-top: 40px;
+  }
 }
 footer {
   height: 150px;
