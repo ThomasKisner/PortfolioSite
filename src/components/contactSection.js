@@ -27,7 +27,7 @@ export default function ContactSection({ title, subtitle, dark, id }) {
         </div>
          </form>
          <div className="contactIcons">
-         <a href="https://github.com/ThomasKisner" targe="_blank">
+         <a href="https://github.com/ThomasKisner" target="_blank">
          <FaGithub size={40} className="faContact"/>
          </a>
          <a href="https://www.linkedin.com/in/thomas-kisner-7b72a74a/" target="_blank">
