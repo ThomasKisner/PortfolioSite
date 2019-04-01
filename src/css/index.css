@@ -414,12 +414,12 @@ footer .footerFlex {
 }
 .skillContainer .skillSection {
   height: auto;
-  width: 48%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: no-wrap;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 @media (max-width: 540px) {
   .skillContainer .skillSection {

@@ -34,12 +34,8 @@ export default function SkillsSection({ title, subtitle, dark, id }) {
         <p>Familiar with git workflow and version control. Familiarity with automated, React, and server testing.</p>
          </div></div>
           <div className="skillSection">
-           <div className="faCircle">
-        <FaFileAlt className="skillFa"/></div>
-        <div className="skillText">
-        <h3>Resume</h3>
-        <p>For a more detailed list of skills learned and applied please download or view my resume by clicking <a href="../assets/TomKisnerResume.pdf" download>HERE</a></p>
-  </div></div>
+           
+       </div>
    </div>
       </div>
     </div>
