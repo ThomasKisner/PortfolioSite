@@ -35,6 +35,11 @@
     margin-left: 10px;
   }
 }
+@media (max-width: 410px) {
+  .nav .personalMenuInfo {
+    margin: 0;
+  }
+}
 .nav .personalMenuInfo .personalMenuInfo h2 {
   text-align: center;
 }
@@ -128,6 +133,11 @@
     min-height: 0;
     margin: 0 5px;
     padding: 0 5px;
+  }
+}
+@media (max-width: 410px) {
+  .nav .nav-content .centerLinks a {
+    font-size: 1rem;
   }
 }
 .nav .nav-content .centerLinks a:active {
