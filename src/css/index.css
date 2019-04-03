@@ -260,6 +260,7 @@
 }
 .contact .formButtons {
   width: 370px;
+  margin: 0 auto;
   height: fit-content;
   display: flex;
   justify-content: space-between;
@@ -270,11 +271,12 @@
     justify-content: space-between;
     height: 125px;
     align-items: center;
+    width: 300px;
   }
 }
 .contact .formButtons input {
   height: 50px;
-  width: 45%;
+  width: 145px;
   font-size: 1.1rem;
   font-weight: 700;
   border-radius: 5px;
